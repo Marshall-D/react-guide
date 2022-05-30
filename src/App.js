@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Expenses from './components/Expenses/Expenses';
 
-function App() {
+const App = () => {
 
   // random dadta  used to show how props can be used
   const expenses = [
