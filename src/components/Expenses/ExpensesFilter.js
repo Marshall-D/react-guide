@@ -2,11 +2,14 @@ import React from 'react';
 
 import './ExpensesFilter.css';
 
-const ExpensesFilter = () => {
+const ExpensesFilter = (props) => {
   const dropDownHandler = (event) =>{
     console.log(event.target.value)
+    const data = event.target.value
+    props.getYearData(data)
 
-  }
+  };
+
 
 
 
